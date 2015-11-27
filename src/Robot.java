@@ -1,4 +1,8 @@
+import acm.graphics.*;
+import acm.program.*;
 
-public class Robot {
+public class Robot extends GraphicsProgram{
 
+	
+	
 }

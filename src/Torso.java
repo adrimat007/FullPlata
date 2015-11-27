@@ -1,28 +1,13 @@
-import acm.graphics.GRect;
-import acm.program.GraphicsProgram;
 import acm.graphics.*;
 
-
-public class Torso  extends GraphicsProgram{
+public class Torso extends GCompound{
 		
-	GRect rectangulo;
-	GRect brazos;
-	GRect brazos2;
-	GRect tronco;
-
-	public void init(){
-		setSize(800,600);
+	public Torso(){
 		
-	}
-	
-	
-
-
-	public void run(){
-		rectangulo = new GRect (400,400);
-		brazos = new GRect (100,450);
-		brazos2 = new GRect (100,450);
-		tronco = new GRect (100,20);
+		GRect rectangulo = new GRect (400,400);
+		GRect brazos = new GRect (100,450);
+		GRect brazos2 = new GRect (100,450);
+		GRect tronco = new GRect (100,20);
 		
 		add(rectangulo,400/2 , 200/2);
 		add (brazos,100,100);

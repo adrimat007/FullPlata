@@ -3,6 +3,7 @@ import acm.graphics.*;
 public class Cara extends GCompound {
 
 	public Cara(){
+		
 		GRect cuadrado = new GRect(120,100);
 		GOval circulo = new GOval(40,40);
 		GOval circulo2 = new GOval(40,40);
